@@ -30,7 +30,7 @@ python finetune.py --config 'fintune_config.json'
 python neuralnet_eval.py --config 'finetune_eval_config.json'   
 
 
-**few-shot meta-learning**
+**few-shot meta-learning**    
 python fewshot_metatrain.py --config 'fewshot_meta_config.json'   
 python fewshot_finaltrain_eval.py --config 'fewshot_finaltrain_config.json'   
 
