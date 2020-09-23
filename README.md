@@ -38,6 +38,8 @@ python neuralnet_eval.py --config 'example_config
 
 
 **few-shot meta-learning**    
-python fewshot_metatrain.py --config 'fewshot_meta_config.json'   
-python fewshot_finaltrain_eval.py --config 'fewshot_finaltrain_config.json'   
+python fewshot_metatrain.py --config 'example_config
+/fewshot_meta_config.json'   
+python fewshot_finaltrain_eval.py --config 'example_config
+/fewshot_finaltrain_config.json'   
 
