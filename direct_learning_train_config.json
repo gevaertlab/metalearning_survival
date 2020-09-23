@@ -1,11 +1,11 @@
 {
 
-    "train_feature": "MESO/feature_train.csv",
-    "train_time": "MESO/ytime_train.csv",
-    "train_status": "MESO/ystatus_train.csv",
-    "val_feature": "MESO/feature_val.csv",
-    "val_time": "MESO/ytime_val.csv",
-    "val_status": "MESO/ystatus_val.csv",
+    "train_feature": "finetuneTarget/feature_train.csv",
+    "train_time": "finetuneTarget/ytime_train.csv",
+    "train_status": "finetuneTarget/ystatus_train.csv",
+    "val_feature": "finetuneTarget/feature_val.csv",
+    "val_time": "finetuneTarget/ytime_val.csv",
+    "val_status": "finetuneTarget/ystatus_val.csv",
     "model_path": "model/",
     "feature_size": 17176,
     "batch_size": 20,
