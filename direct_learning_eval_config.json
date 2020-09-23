@@ -1,0 +1,15 @@
+{
+
+    "train_feature": "pretrainPanCan/feature_train.csv",
+    "train_time": "pretrainPanCan/ytime_train.csv",
+    "train_status": "pretrainPanCan/ystatus_train.csv",
+    "test_feature": "MESO/feature_holdout.csv",
+    "test_time": "MESO/ytime_holdout.csv",
+    "test_status": "MESO/ystatus_holdout.csv",
+    "model_path": "model/",
+    "feature_size": 17176,
+    "restore_series": "directlearning_samplesize20_dropout1_reg0.1_batch20_epo1",
+    "select_size": 20
+ 
+
+ }

@@ -1,0 +1,21 @@
+{   
+    "train_feature_multi": "pretrainPanCan/feature_train.csv",
+    "train_time_multi": "pretrainPanCan/ytime_train.csv",
+    "train_status_multi": "pretrainPanCan/ystatus_train.csv",
+    "train_feature_target": "MESO/feature_train.csv",
+    "train_time_target": "MESO/ytime_train.csv",
+    "train_status_target": "MESO/ystatus_train.csv",
+    "val_feature": "pretrainPanCan/feature_val.csv",
+    "val_time": "pretrainPanCan/ytime_val.csv",
+    "val_status": "pretrainPanCan/ystatus_val.csv",
+    "model_path": "model/",
+    "feature_size": 17176,
+    "batch_size": 800,
+    "lr": 0.001,
+    "num_epo": 1,
+    "keep_prob": 1,
+    "reg_scale": 0.1,
+    "select_size": 20
+
+
+ }

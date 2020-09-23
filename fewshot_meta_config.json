@@ -1,0 +1,18 @@
+{
+
+    "train_feature": "pretrainPanCan/feature_train.csv",
+    "train_time": "pretrainPanCan/ytime_train.csv",
+    "train_status": "pretrainPanCan/ystatus_train.csv",
+    "val_feature": "pretrainPanCan/feature_val.csv",
+    "val_time": "pretrainPanCan/ytime_val.csv",
+    "val_status": "pretrainPanCan/ystatus_val.csv",
+    "lr_inner": 0.01,
+    "lr_outer": 0.0001,
+    "shots_n": 100,
+    "batch_n": 10,
+    "n_inner": 5,
+    "reg_scale": 0.1,
+    "iters": 10,
+    "model_path": "model/"
+
+ }

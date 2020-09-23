@@ -1,0 +1,18 @@
+{
+
+    "train_feature": "MESO/feature_train.csv",
+    "train_time": "MESO/ytime_train.csv",
+    "train_status": "MESO/ystatus_train.csv",
+    "val_feature": "MESO/feature_val.csv",
+    "val_time": "MESO/ytime_val.csv",
+    "val_status": "MESO/ystatus_val.csv",
+    "model_path": "model/",
+    "feature_size": 17176,
+    "batch_size": 20,
+    "lr": 0.001,
+    "num_epo": 1,
+    "keep_prob": 1,
+    "reg_scale": 0.1,
+    "select_size": 20
+
+ }
