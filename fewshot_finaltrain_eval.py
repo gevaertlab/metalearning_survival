@@ -139,9 +139,8 @@ if __name__ == '__main__':
         score_train_list=[]
         score_test_list=[]
 
-        for i in range(1,51):
+        for i in range(1,11):
             random.seed(i)
-            dup=i%5+1
             smp_ind=random.sample(range(x_ftrain.shape[0]),SELECT_SAMPLE)
             x_ftrain_smp = x_ftrain[smp_ind,]
             y_ftrain_smp = y_ftrain[smp_ind,]
