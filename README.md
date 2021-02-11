@@ -13,33 +13,24 @@ License: BSD 3-Clause License
 
 **Direct learning**
 
-python direct_learning_subsettarget.py --config 'example_config
-/direct_learning_train_config.json'   
-python direct_learning_eval.py --config 'example_config
-/direct_learning_eval_config.json'      
+python direct_learning_subsettarget.py --config 'example_config/direct_learning_train_config.json'   
+python direct_learning_eval.py --config 'example_config/direct_learning_eval_config.json'      
 
 
 **Combined learning**
 
-python combined_learning.py  --config 'example_config
-/combined_learning_train_config.json'   
-python neuralnet_eval.py --config 'example_config
-/combined_eval_config.json'   
+python combined_learning.py  --config 'example_config/combined_learning_train_config.json'   
+python neuralnet_eval.py --config 'example_config/combined_eval_config.json'   
 
 
 **Regular pre-train fine-tune**
 
-python pretrain_coxnet.py --config  'example_config
-/pretrain_coxnet_config.json'   
-python finetune.py --config 'example_config
-/fintune_config.json'   
-python neuralnet_eval.py --config 'example_config
-/finetune_eval_config.json'   
+python pretrain_coxnet.py --config  'example_config/pretrain_coxnet_config.json'   
+python finetune.py --config 'example_config/fintune_config.json'   
+python neuralnet_eval.py --config 'example_config/finetune_eval_config.json'   
 
 
 **few-shot meta-learning**    
-python fewshot_metatrain.py --config 'example_config
-/fewshot_meta_config.json'   
-python fewshot_finaltrain_eval.py --config 'example_config
-/fewshot_finaltrain_config.json'   
+python fewshot_metatrain.py --config 'example_config/fewshot_meta_config.json'   
+python fewshot_finaltrain_eval.py --config 'example_config/fewshot_finaltrain_config.json'   
 
