@@ -8,7 +8,7 @@
     "val_status": "sample_data/pretrainPanCan/ystatus_val.csv",
     "model_path": "model/",
     "feature_size": 17176,
-    "batch_size": 10,
+    "batch_size": 5,
     "lr": 0.001,
     "num_epo": 1,
     "keep_prob": 1,
