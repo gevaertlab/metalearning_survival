@@ -8,7 +8,7 @@
     "test_status": "sample_data/finetuneTarget/ystatus_holdout.csv",
     "model_path": "model/",
     "feature_size": 17176,
-    "restore_series": "directlearning_samplesize10_dropout1_reg0.1_batch10_epo1",
+    "restore_series": "directlearning_samplesize9_dropout1_reg0.1_batch10_epo1",
     "select_size": 10
  
 
