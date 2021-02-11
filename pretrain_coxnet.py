@@ -111,7 +111,7 @@ if __name__ == '__main__':
             for ep in range(NUM_EPOCHES):
         
                 batch_gen_train=get_batch_train(BATCH_SIZE,x_train, y_train, ystatus_train) 
-                batch_gen_holdout=get_batch_holdout(700,x_holdout, y_holdout, ystatus_holdout) 
+                batch_gen_holdout=get_batch_holdout(BATCH_SIZE,x_holdout, y_holdout, ystatus_holdout) 
                 total_loss_train=0.0
                 total_loss_holdout=0.0
         
