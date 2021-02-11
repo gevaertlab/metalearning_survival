@@ -10,12 +10,12 @@
     "val_status": "sample_data/pretrainPanCan/ystatus_val.csv",
     "model_path": "model/",
     "feature_size": 17176,
-    "batch_size": 800,
+    "batch_size": 10,
     "lr": 0.001,
     "num_epo": 1,
     "keep_prob": 1,
     "reg_scale": 0.1,
-    "select_size": 20
+    "select_size": 10
 
 
  }
