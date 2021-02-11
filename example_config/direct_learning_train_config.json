@@ -1,11 +1,11 @@
 {
 
-    "train_feature": "finetuneTarget/feature_train.csv",
-    "train_time": "finetuneTarget/ytime_train.csv",
-    "train_status": "finetuneTarget/ystatus_train.csv",
-    "val_feature": "finetuneTarget/feature_val.csv",
-    "val_time": "finetuneTarget/ytime_val.csv",
-    "val_status": "finetuneTarget/ystatus_val.csv",
+    "train_feature": "sample_data/finetuneTarget/feature_train.csv",
+    "train_time": "sample_data/finetuneTarget/ytime_train.csv",
+    "train_status": "sample_data/finetuneTarget/ystatus_train.csv",
+    "val_feature": "sample_data/finetuneTarget/feature_val.csv",
+    "val_time": "sample_data/finetuneTarget/ytime_val.csv",
+    "val_status": "sample_data/finetuneTarget/ystatus_val.csv",
     "model_path": "model/",
     "feature_size": 17176,
     "batch_size": 20,
