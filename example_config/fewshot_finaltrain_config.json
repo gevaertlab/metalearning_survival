@@ -1,19 +1,18 @@
 {
-
-    "train_feature": "finetuneTarget/feature_train.csv",
-    "train_time": "finetuneTarget/ytime_train.csv",
-    "train_status": "finetuneTarget/ystatus_train.csv",
-    "test_feature": "finetuneTarget/feature_holdout.csv",
-    "test_time": "finetuneTarget/ytime_holdout.csv",
-    "test_status": "finetuneTarget/ystatus_holdout.csv",
+    "train_feature": "sample_data/finetuneTarget/feature_train.csv",
+    "train_time": "sample_data/finetuneTarget/ytime_train.csv",
+    "train_status": "sample_data/finetuneTarget/ystatus_train.csv",
+    "test_feature": "sample_data/finetuneTarget/feature_holdout.csv",
+    "test_time": "sample_data/finetuneTarget/ytime_holdout.csv",
+    "test_status": "sample_data/finetuneTarget/ystatus_holdout.csv",
     "final_n_inner": 1,
     "final_lr_inner": 0.001,
-    "final_shots_n": 20,
-    "final_iter": 20,
+    "final_shots_n": 1,
+    "final_iter": 2,
     "final_reg_scale": 0.1,
-    "select_sample": 20,
+    "select_sample": 1,
     "model_path": "model/",
     "output_path": "csv_output/",
-    "restore_series": "metamodel_lrinner0.01lrouter0.0001shotsn100batchn10ninner5regscale0.1iter10",
-    "final_params_save" : "1-0.001-20-20-0.1-20"
+    "restore_series": "metamodel_lrinner0.01lrouter0.0001shotsn2batchn1ninner5regscale0.1iter1",
+    "final_params_save" : "1-0.001-2-2-0.1-20"
  }
