@@ -12,7 +12,7 @@
     "model_path": "model/",
     "feature_size": 17176,
     "restore_series": "combined_4layer200_dropout1_reg0.1_batch10_epo1",
-    "select_size": 20
+    "select_size": 10
 
 
  }
