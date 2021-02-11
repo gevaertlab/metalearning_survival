@@ -82,7 +82,7 @@ def train(y_holdout, x_holdout, ystatus_holdout, y_train, x_train, ystatus_train
         for ep in range(NUM_EPOCHES):
     
             batch_gen_train=get_batch_train(BATCH_SIZE,y_train, x_train, ystatus_train) 
-            batch_gen_holdout=get_batch_holdout(20,y_holdout, x_holdout, ystatus_holdout) 
+            batch_gen_holdout=get_batch_holdout(BATCH_SIZE,y_holdout, x_holdout, ystatus_holdout) 
             total_loss_train=0.0
             total_loss_holdout=0.0
     
