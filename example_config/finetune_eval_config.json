@@ -11,8 +11,8 @@
     "test_status": "sample_data/finetuneTarget/ystatus_holdout.csv",
     "model_path": "model/",
     "feature_size": 17176,
-    "restore_series": "pretrain_4layer200_dropout1_reg0.1_batch10_epo1_finetune_4layer200_dropout1_reg0.1_batch10_epo1",
-    "select_size": 10
+    "restore_series": "pretrain_4layer200_dropout1_reg0.1_batch5_epo1_finetune_4layer200_dropout1_reg0.1_batch5_epo1",
+    "select_size": 9
 
 
  }
