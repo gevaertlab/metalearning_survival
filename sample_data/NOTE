@@ -1,8 +1,10 @@
 Due to size limit we do not provide full data used in the manuscript. 
 The data contained in the sample_data folder is a subset of samples that are used to illustrate the input data format.
+The the pretrainPanCan folder contains pan-cancer data used for pre-train and meta-learn stages, and the finetuneTarget folder contains data of specific cancer type for final learning and evaluation. 
 
 data description: 
 a. feature data: Input feature used for survival prediction. n_sample x feature_dimension.
 b. ytime data: The survival times of each sample. n_sample x 1. 
 c. ystatus data: The survival status of each sample when the study conlcuded, where 1 means dead and 0 means alive. n_sample x 1. 
+
 
