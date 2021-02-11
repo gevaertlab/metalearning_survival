@@ -7,13 +7,13 @@
     "val_time": "sample_data/finetuneTarget/ytime_val.csv",
     "val_status": "sample_data/finetuneTarget/ystatus_val.csv",
     "feature_size": 17176,
-    "batch_size": 10,
+    "batch_size": 5,
     "lr": 0.001,
     "num_epo": 1,
     "keep_prob": 1,
     "reg_scale": 0.1,
-    "select_size": 10,
-    "pretrain_series": "pretrain_4layer200_dropout1_reg0.1_batch800_epo1",
+    "select_size": 9,
+    "pretrain_series": "pretrain_4layer200_dropout1_reg0.1_batch5_epo1",
     "model_path": "model/"
 
  }
