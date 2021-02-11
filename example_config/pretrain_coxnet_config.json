@@ -1,11 +1,11 @@
 {   
 
-    "train_feature": "pretrainPanCan/feature_train.csv",
-    "train_time": "pretrainPanCan/ytime_train.csv",
-    "train_status": "pretrainPanCan/ystatus_train.csv",
-    "val_feature": "pretrainPanCan/feature_val.csv",
-    "val_time": "pretrainPanCan/ytime_val.csv",
-    "val_status": "pretrainPanCan/ystatus_val.csv",
+    "train_feature": "sample_data/pretrainPanCan/feature_train.csv",
+    "train_time": "sample_data/pretrainPanCan/ytime_train.csv",
+    "train_status": "sample_data/pretrainPanCan/ystatus_train.csv",
+    "val_feature": "sample_data/pretrainPanCan/feature_val.csv",
+    "val_time": "sample_data/pretrainPanCan/ytime_val.csv",
+    "val_status": "sample_data/pretrainPanCan/ystatus_val.csv",
     "model_path": "model/",
     "feature_size": 17176,
     "batch_size": 800,
